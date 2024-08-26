@@ -11,7 +11,7 @@ Este projeto configura um servidor Icecast para transmissão de áudio e um serv
 
 1. Clone este repositório:
 
-   git clone <URL_DO_REPOSITORIO>
+   git clone git@github.com:EduRayzer/desafio_loopert.git
 
 2. Construa e inicie os contêineres:
    docker compose build
