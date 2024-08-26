@@ -19,7 +19,7 @@ Este projeto configura um servidor Icecast para transmissão de áudio e um serv
 
 3. Acesse o Icecast em http://localhost:8000/admin para controle do admin e o Nginx em http://localhost:90. ira acessar o mesmo admin
    Se os dois estiver funcionando esta okay
-   ## Problemas Conhecidos
+   # Problemas Conhecidos
 
 - O Nginx deve estar configurado corretamente para redirecionar as solicitações para o Icecast. Verifique o arquivo de configuração `nginx.conf` se houver problemas.
 
@@ -31,8 +31,8 @@ Este projeto configura um servidor Icecast para transmissão de áudio e um serv
 Name: Dê um nome para sua configuração, como "Icecast Server".
 Address: O endereço do seu servidor Icecast. Se estiver rodando localmente, use localhost ou o IP do seu contêiner Icecast.
 Port: A porta do Icecast, que geralmente é 8000.
-Mountpoint: O ponto de montagem do Icecast. No seu caso, use /stream.
-Password: A senha de fonte configurada no arquivo icecast.xml. No seu caso, é desafio_123.
+Mountpoint: O ponto de montagem do Icecast. No caso, use /stream.
+Password: A senha de fonte configurada no arquivo icecast.xml. No caso, é desafio_123.
 
 6. Inicie o stream e acesse http://localhost:8000/stream
    Se tudo tiver correto, o stream vai esta funcionando com algum pequeno delay.
